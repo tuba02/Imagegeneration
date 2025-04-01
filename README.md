@@ -1,0 +1,2 @@
+# Imagegeneration
+Android Studioの環境で動作するAI画像生成アプリ
