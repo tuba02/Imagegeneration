@@ -1,43 +1,41 @@
 # Imagegeneration
 
 ## 概要
-このプロジェクトはアプリで画像生成を行うアプリのコードとサーバ用のプログラムです。
-アプリ側は画像生成のための文字列をサーバに送信し、サーバが生成した画像を受け取って表示します
-サーバ側は文字列を受け取ったあと画像の生成を行いアプリ側に画像データを送信します
+このプロジェクトはアプリで画像生成を行うアプリのコードとサーバ用のプログラムです。  
+アプリ側は画像生成のための文字列をサーバに送信し、サーバが生成した画像を受け取って表示します  
+サーバ側は文字列を受け取ったあと画像の生成を行いアプリ側に画像データを送信します  
 
 ## 必要な環境
-・ Python 3.10 以上
-・ Flask
-・ Waitress
-・ Ngrok
-・ diffusers
-・ torch
-・ transformers
-・ accelerate
-・ GPU を搭載している PC（NVIDIA GeForce RTX 4060 以上を推奨）
+・ Python 3.10 以上  
+・ Flask  
+・ Waitress  
+・ Ngrok  
+・ diffusers  
+・ torch  
+・ transformers  
+・ accelerate  
+・ GPU を搭載している PC（NVIDIA GeForce RTX 4060 以上を推奨）  
 
 ## インストール方法
-1.Android Studioをインストール
-  以下のページからインストーラーをダウンロードしてインストールしてください
-　ダウンロード先:https://developer.android.com/studio
- インストール時にAVDをインストールしておくことで、仮想アンドロイド端末を使って、アプリケーションのテストが行えるようになります
- 
-2.リポジトリのクローン
-  git clone https://github.com/tuba02/Imagegeneration.git
-  
-3.Android Studioのセットアップ
-　3.1 C:\AndroidStudioProjects\Imagegeneration を開く。
-　3.2 File メニューの Sync Project with Gradle Files をクリック。
+1.Android Studioをインストール  
+  以下のページからインストーラーをダウンロードしてインストールしてください  
+　ダウンロード先:https://developer.android.com/studio  
+ インストール時にAVDをインストールしておくことで、仮想アンドロイド端末を使って、アプリケーションのテストが行えるようになります   
+2.リポジトリのクローン  
+  git clone https://github.com/tuba02/Imagegeneration.git       
+3.Android Studioのセットアップ  
+　3.1 C:\AndroidStudioProjects\Imagegeneration を開く。  
+　3.2 File メニューの Sync Project with Gradle Files をクリック。  
 
-4.SDKの設定
-　Tools → SDK Managerを開き、以下のSDKをインストール
-  ・ SDK Platforms
-    ・ Android SDK Platform 36
-    ・ Google APIs Intel x86_64 Atom System Image
-  ・ SDK Platforms
-    ・ Android SDK Build-Tools　36.00
-    ・ Android Emulator
-    ・ Android SDK Platform-Tools
+4.SDKの設定  
+　Tools → SDK Managerを開き、以下のSDKをインストール  
+  ・ SDK Platforms  
+    ・ Android SDK Platform 36  
+    ・ Google APIs Intel x86_64 Atom System Image  
+  ・ SDK Platforms  
+    ・ Android SDK Build-Tools　36.00  
+    ・ Android Emulator  
+    ・ Android SDK Platform-Tools  
 
 5.仮想デバイスの作成
   5.1 Tools → Device Manager を開く。
