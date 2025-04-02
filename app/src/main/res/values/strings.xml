@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">ImageGen</string>
+    <string-array name="spinner_hear">
+        <item>ストレート</item>
+        <item>ボブカット</item>
+        <item>ポニーテール</item>
+        <item>サイドポニーテール</item>
+        <item>ドリルカット</item>
+        <item>三つ編み</item>
+        <item>ハーフアップ</item>
+        <item>ツインテール</item>
+        <item>指定なし</item>
+    </string-array>
+    <string-array name="spinner_color">
+        <item>赤</item>
+        <item>オレンジ</item>
+        <item>黄</item>
+        <item>緑</item>
+        <item>青</item>
+        <item>紫</item>
+        <item>白</item>
+        <item>黒</item>
+        <item>指定なし</item>
+    </string-array>
+    <string-array name="spinner_pose">
+        <item>立っている</item>
+        <item>座っている</item>
+        <item>背伸び</item>
+        <item>ジャンプ</item>
+        <item>ピース</item>
+        <item>敬礼</item>
+        <item>威嚇1</item>
+        <item>威嚇2</item>
+        <item>指定なし</item>
+    </string-array>
+    <string-array name="spinner_face">
+        <item>笑顔</item>
+        <item>照れ顔</item>
+        <item>無表情</item>
+        <item>怒り顔</item>
+        <item>泣き顔</item>
+        <item>笑顔(歯)</item>
+        <item>指定なし</item>
+    </string-array>
+    <string-array name="spinner_clothing">
+        <item>制服</item>
+        <item>水着</item>
+        <item>ドレス</item>
+        <item>カジュアル</item>
+        <item>Tシャツ</item>
+        <item>ブラウス</item>
+        <item>パジャマ</item>
+        <item>指定なし</item>
+    </string-array>
+    <string-array name="spinner_angle">
+        <item>全身</item>
+        <item>太ももから頭</item>
+        <item>胸から頭</item>
+        <item>首から頭</item>
+        <item>顔のみ</item>
+        <item>指定なし</item>
+    </string-array>
+
+</resources>
