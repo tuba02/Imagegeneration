@@ -59,8 +59,7 @@
 
 9.Ngrokの設定  
   ngrok http 8000  
-  ターミナルに表示された Forwarding の https://youradress.ngrok-free.app をコピーし、  
-　app/java/com.example.imagegen/MainActivity の 310 行目の URL url = new URL("/api"); を編集して反映  
+  ターミナルに表示された Forwarding の https://youradress.ngrok-free.app をコピーし、app/java/com.example.imagegen/MainActivity の 310 行目の URL url = new URL("/api"); を編集して反映    
   Run appボタンで再度アプリを起動  
 
 10.サーバの起動  
