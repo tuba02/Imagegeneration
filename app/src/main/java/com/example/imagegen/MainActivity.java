@@ -307,7 +307,7 @@ public class MainActivity extends AppCompatActivity {
 
             try {
 
-                URL url = new URL("https://cce0-131-206-228-37.ngrok-free.app/api");
+                URL url = new URL("/api");
 
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                 conn.setRequestMethod("POST");
